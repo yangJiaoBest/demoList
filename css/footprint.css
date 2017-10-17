@@ -1,0 +1,161 @@
+a:focus{outline:none;}
+.BPMslot_bg{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	opacity: 0.3;
+	position: fixed;
+	filter:alpha(opacity=30);
+	display: none;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+.BPMslot{
+	position: fixed;
+	width: 1050px;
+	height: 600px;
+	background:url(/wps/boeres/boe-ui/images/zj_bg.jpg) no-repeat;
+	z-index: 1002;
+	left: 50%;
+	top: 50%;
+	margin-top:-300px ;
+	margin-left: -525px;
+	box-sizing: border-box;
+	display: none;
+}
+.BPMslot .zj_close{
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	background: url(/wps/boeres/boe-ui/images/zj_close.png) no-repeat;
+	top: 24px;
+	right: 24px;
+	z-index: 10;
+	cursor: pointer;
+}
+/*BPMcontent*/
+.BPMcontent{
+	position: absolute;
+	width: 950px;
+	height: 472px;
+	margin: 128px 50px 0;
+}
+.BPMcontent p{
+	position: absolute;
+	width: 280px;
+	line-height:20px ;
+	background-color: #001e69;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: "microsoft yahei";
+	font-size: 13px;
+	border-radius:10px ;
+}
+ .BPMcontent p.bcOne{
+	top: 120px;
+	left: 354px;
+}
+ .BPMcontent p.bcTwo{
+	top: 48px;
+	left: 36px;
+}
+ .BPMcontent p.bcThree{
+	top: 50px;
+	left: 688px;
+}
+ .BPMcontent p.bcFour{
+	top: 225px;
+	left: 66px;
+}
+ .BPMcontent p.bcFive{
+	top: 276px;
+	left: 632px;
+}
+ .BPMcontent p.bcSix{
+	top: 322px;
+	left: 284px;
+}
+.BPMcontent p>a.on{
+	width: 120px;
+	height: 120px;
+	top: -96px;
+	left: 59px;
+	background: url(/wps/boeres/boe-ui/images/star_big3.png) no-repeat;
+}
+.BPMcontent p>a{
+	display: block;
+	width: 70px;
+	height: 70px;
+	top: -69px;
+	left: 86px;
+	z-index: 66;
+	position: absolute;
+	background: url(/wps/boeres/boe-ui/images/star_small3.png) no-repeat;
+}
+.BPMcontent p a.starNotice{
+	cursor: pointer;
+	color: #fff !important;
+}
+.BPMcontent p a.starNotice:hover{
+	text-decoration: underline!important;
+}
+.BPMcontent p a.starNotice:active{
+	color: #fff !important;
+}
+.BPMcontent p b{
+	display: block;
+	font-weight: normal;
+}
+.BPMcontent P em{
+	position: absolute;
+	z-index: 77;
+	width: 30px;
+	height: 38px;
+	top: -26px;
+    left: 107px;
+    display: none;
+    background: url(/wps/boeres/boe-ui/images/hand_big.png) no-repeat;
+}
+.BPMcontent P em.on{
+	display: block;
+}
+.BPMcontent p span{
+	display: none;
+	padding: 10px;
+	border-radius:10px ;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+	border: 1px solid #5688ff;
+}
+.BPMcontent p b i:first-child{
+	padding-right: 40px;
+}
+.BPMzj{
+	position: fixed;
+	bottom: 201px;
+	right: 0;
+	z-index: 999;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	display: none;
+}
+.BPMzj a{
+	box-sizing: border-box;
+	display: block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    background-color: #82c6ff;
+    line-height: 24px;
+    padding: 6px 0;
+}
+.BPMzj a:hover{ 
+	background-color: #0a8aa6; 
+	color: #fff;
+	}
+.BPMzj a:visited{
+	 color: #fff !important;
+	 }

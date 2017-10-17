@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>正则表达式验证</title>
+	<meta charset="UTF-8">
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript">
+        var Validate = {
+            isMobile: function (value) {
+                //var validateReg = /^((\+?86)|(\(\+86\)))?1\d{10}$/;
+                var validateReg = /^(((\+?86)|(\(\+86\)))?1\d{10})|(((\+?886)|(\+886))?9\d{9})$/;
+// 国内手机号+8612345678978| 12345678978 或者 台湾手机号  +8869111111111 | 9111111111
+	   var mobile=/^(((\+?86)|(\(\+86\)))?1\d{10})|(((\+?886)|(\+886))?9\d{9})$/;
+                return validateReg.test(value);
+            },
+            cellPhone: function () {
+                var cellPhoneNumber = $("#txtCellPhone").val();
+                if (!Validate.isMobile(cellPhoneNumber)) {
+                    alert("手机号码格式不正确");
+                    return false;
+                } else {
+                    alert("您的手机号码格式是正确的");
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+<div>
+   <label>请输入手机号码（支持+86）：</label><input type="text" id="txtCellPhone" /><input  type="button" value="验证" onclick="Validate.cellPhone();"/><br />
+</div>
+</body>
+</html>

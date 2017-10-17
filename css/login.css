@@ -1,0 +1,545 @@
+.wploginLeft {
+	float: left;
+	text-align: left;
+}
+
+.wploginAltText {
+	display: none;
+}
+
+#wplogin img {
+	padding: 1px;
+	border: 10px;
+	line-height: 0;
+	vertical-align: middle;
+}
+
+#wplogin img.ibmId {
+	cursor: pointer;
+	height: 54px;
+}
+
+#wplogin h1 {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-left: 25px;
+}
+
+.macmui #wplogin h1 {
+	color: #323232;
+	font-size: 18px;
+}
+
+#wplogin h3 {
+	margin: 10px 0 0 0;
+}
+
+#wplogin form {
+	margin: 20px auto 0;
+}
+
+#wplogin label {
+	display: inline-block;
+}
+
+#wplogin input {
+	outline: medium none;
+	font-family: inherit;
+}
+
+#wplogin {
+	margin: 0px auto;
+	width: 980px;
+}
+
+.macmui #wplogin {
+	padding-top: 50px;
+}
+
+.macmui .macmStatusBar {
+	background-color: #FFFFFF;
+	margin: 0 auto 25px;
+	width: 897px;
+	position: relative;
+	top: 75px;
+}
+
+#wplogin .wploginContainer,
+#wplogin .wpOpenIdContainer {
+	background: none repeat scroll 0 0 transparent;
+	height: auto;
+	margin: 30px auto 10px;
+	min-height: 330px;
+	position: relative;
+}
+
+#wplogin .wploginContainer {
+	width: 350px;
+}
+
+.macmui .wploginContainer {
+	padding-bottom: 40px;
+}
+
+#wplogin .wploginContainer input[type="text"],
+#wplogin .wploginContainer input[type="password"] {
+	border: 1px solid rgba(0, 63, 105, 0.3);
+	border-radius: 2px;
+	box-shadow: 0 1.5px 3px rgba(190, 190, 190, 0.4) inset, 0 0 0 5px rgba(245, 247, 248, 1);
+	color: #333;
+	height: 35px;
+	margin: 12px 25px 10px 25px;
+	padding-left: 10px;
+	transition: all 0.4s ease 0s;
+	width: 300px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.macmui #wplogin .wploginContainer input[type="text"],
+.macmui #wplogin .wploginContainer input[type="password"] {
+	border: 1px solid #E3E4E6;
+	border-radius: 0px;
+	box-shadow: none;
+	color: #393A3F;
+	transition: none;
+}
+
+#wplogin .wploginContainer label[for="userID"],
+#wplogin .wploginContainer label[for="password"],
+#wplogin .wploginContainer input[type="checkbox"] {
+	margin: 12px 10px 0px 25px;
+}
+
+.macmui #wplogin .wploginContainer label[for="userID"],
+.macmui #wplogin .wploginContainer label[for="password"],
+.macmui #wplogin .wploginContainer input[type="checkbox"] {
+	color: #323232;
+	font-size: 12px;
+}
+
+#wplogin .wploginContainer input[type="text"]:hover,
+#wplogin .wploginContainer input[type="password"]:hover,
+#wplogin .wpOpenIdGenericContainer input[type="text"]:hover {
+	box-shadow: 0 1.5px 3px rgba(190, 190, 190, 0.7) inset, 0 0 0 5px #f5f7f8;
+}
+
+#wplogin .wploginContainer input[type="text"]:focus,
+#wplogin .wploginContainer input[type="password"]:focus,
+#wplogin .wpOpenIdGenericContainer input[type="text"]:focus {
+	border: 1px solid rgba(0, 63, 105, 0.6);
+	box-shadow: 0 1.5px 3px rgba(190, 190, 190, 0.4) inset, 0 0 0 5px rgba(0, 63, 105, 0.075);
+}
+
+.macmui #wplogin .wploginContainer input[type="text"]:hover,
+.macmui #wplogin .wploginContainer input[type="password"]:hover,
+.macmui #wplogin .wpOpenIdGenericContainer input[type="text"]:hover,
+.macmui #wplogin .wploginContainer input[type="text"]:focus,
+.macmui #wplogin .wploginContainer input[type="password"]:focus,
+.macmui #wplogin .wpOpenIdGenericContainer input[type="text"]:focus {
+	border: 1px solid #E3E4E6;
+	box-shadow: none;
+}
+
+.wptheme_ie8 #wplogin .wploginContainer input[type="text"],
+.wptheme_ie8 #wplogin .wploginContainer input[type="password"] {
+	line-height: 35px;
+}
+
+#wplogin .wploginRegister p {
+	margin: 5px 0 0 25px;
+}
+
+#wplogin .wploginRegister p a {
+	font-weight: bold;
+}
+
+#wplogin .wploginContainer input[type="submit"],
+#wplogin .wpOpenIdContainer form span,
+#wplogin .wpOpenIdContainer form input[type="submit"] {
+	background-color: #00648D;
+	border: 0;
+	border-radius: 6px;
+	color: #fff;
+	cursor: pointer;
+	font-size: 1.17em;
+	margin: 12px 0px 5px 25px;
+	padding: 4px 12px 5px;
+	transition: background-color 300ms ease-in-out 0s;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+#wplogin .wploginContainer input[type="submit"]:hover,
+#wplogin .wploginContainer input[type="submit"]:active,
+#wplogin form .wpOpenIdGenericContainer input[type="submit"]:hover,
+#wplogin form .wpOpenIdGenericContainer input[type="submit"]:active {
+	background-color: #003F69;
+}
+
+#wplogin .wploginContainer input[type="submit"].wploginButtonCancel {
+	margin-left: 10px;
+}
+
+.macmui #wplogin .wploginContainer form input[type="submit"],
+.macmui #wplogin .wpOpenIdContainer form span,
+.macmui #wplogin .wpOpenIdContainer form input[type="submit"] {
+	background-color: #FFFFFF;
+	color: #325C80;
+	font-size: 16px;
+	border: 1px solid #325C80;
+	border-radius: 0px;
+	border-spacing: 0px;
+	padding: 14px 15px 14px 15px;
+	margin-top: 15px;
+	cursor: pointer;
+	transition: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.macmui #wplogin .wploginContainer input[type="submit"]:hover,
+.macmui #wplogin .wploginContainer input[type="submit"]:active,
+.macmui #wplogin form .wpOpenIdGenericContainer input[type="submit"]:hover,
+.macmui #wplogin form .wpOpenIdGenericContainer input[type="submit"]:active {
+	background-color: #325C80;
+	color: #FFFFFF;
+}
+
+.macmui #wplogin .wploginContainer form input[type="submit"].wploginButtonLogin {
+	margin-left: 0px;
+	margin-right: 8px;
+}
+
+.macmui #wplogin .wploginContainer form input[type="submit"].wploginButtonCancel {
+	margin-left: 0px;
+	margin-right: 15px;
+}
+
+.wpthemeImagesOff #wplogin .wploginContainer input[type="text"],
+.wpthemeImagesOff #wplogin .wploginContainer input[type="password"],
+.a11yHighContrast #wplogin .wploginContainer input[type="text"],
+.a11yHighContrast #wplogin .wploginContainer input[type="password"] {
+	border-width: 1px;
+	border-color: #aaaaaa;
+	border-style: outset;
+}
+
+.macmui #wplogin .wploginContainer .wploginTextRight {
+	text-align: right;
+}
+
+#wplogin .wploginSeparator {
+	color: #808184;
+	font-size: 2.2em;
+	margin: 159px 25px;
+	text-align: center;
+}
+
+#wplogin .wpOpenIdContainer {
+	width: 350px;
+}
+
+#wplogin .wpOpenIdContainer form,
+#wplogin .wploginGreeting {
+	margin-left: 25px;
+}
+
+#wplogin .wpOpenIdContainer form a {
+	color: #222;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.17em;
+}
+
+#wplogin .wpOpenIdContainer form p a {
+	color: rgba(0, 117, 163, 1);
+	text-decoration: none;
+}
+
+#wplogin .wpOpenIdContainer form p a:hover {
+	color: rgba(0, 117, 163, 1);
+	text-decoration: underline;
+}
+
+#wplogin .wpOpenIdContainer form span {
+	background-color: #E6E7E8;
+	border-color: #D0D2D3;
+	line-height: 35px;
+	margin: 0px 5px 0px 0px;
+	padding: 5px 12px 6px;
+}
+
+#wplogin .wpOpenIdContainer form span:hover,
+#wplogin .wpOpenIdContainer form span:active {
+	background-color: #BBBDBF;
+	border-color: #A6A8AB;
+}
+
+#wplogin .wpOpenIdContainer form span a {
+	font-size: 1em;
+}
+
+#wplogin .wpOpenIdGenericContainer {
+	margin-top: 10px;
+}
+
+#wplogin form .wpOpenIdGenericContainer input[type="submit"] {
+	display: block;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+
+#wplogin .wpOpenIdGenericContainer input[type="text"] {
+	border: 1px solid rgba(0, 63, 105, 0.3);
+	border-radius: 2px;
+	box-shadow: 0 1.5px 3px rgba(190, 190, 190, 0.4) inset, 0 0 0 5px rgba(245, 247, 248, 1);
+	color: #333;
+	height: 35px;
+	margin: 19px 2px 10px;
+	padding-left: 10px;
+	transition: all 0.4s ease 0s;
+	width: 250px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+#wplogin .wploginMore {
+	display: inline;
+}
+
+#wplogin .wploginMore a {
+	padding: 0 0 0 10px;
+}
+
+#wplogin .wpOpenIdContainer form span.wploginMoreIcon {
+	background: none repeat scroll 0 0 transparent;
+	border: 0;
+	box-shadow: none;
+	transition: none;
+	margin: 0 0 0 -6px;
+	padding: 0;
+}
+
+#wplogin .wpOpenIdContainer form span.wploginMoreIcon:hover {
+	background: none repeat scroll 0 0 transparent;
+	border: 0;
+	box-shadow: none;
+}
+
+#wplogin .wploginMoreIcon img {
+	background-image: url('images/loginSprite.png');
+	background-position: -32px 0px;
+	cursor: auto;
+	height: 12px;
+	width: 12px;
+}
+
+#wplogin .wploginHelp {
+	margin-left: 10px;
+}
+
+#wplogin .wploginHelp img {
+	background-image: url('images/loginSprite.png');
+	background-position: 0 0;
+	height: 12px;
+	width: 12px;
+}
+
+#wploginHelpContainer {
+	background-color: rgba(0, 63, 105, 0.075);
+	border-radius: 5px 0 5px 5px;
+	left: 0;
+	margin: 20px auto;
+	opacity: 1;
+	overflow: hidden;
+	padding: 0px 15px;
+	position: absolute;
+	top: -9999px;
+	width: 320px;
+	z-index: 900;
+}
+
+#wploginHelpContainer:before {
+	background: none repeat scroll 0 0 transparent;
+	border-color: #fff #fff rgba(0, 63, 105, 0.15) rgba(0, 63, 105, 0.15);
+	border-radius: 0 0 0 5px;
+	border-style: solid;
+	border-width: 8px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 0;
+}
+
+#wplogin.wploginRTL .wploginLeft {
+	float: right;
+	text-align: right;
+}
+
+#wplogin.wploginRTL h1 {
+	margin-right: 25px;
+}
+
+#wplogin.wploginRTL .wploginContainer input[type="text"],
+#wplogin.wploginRTL .wploginContainer input[type="password"] {
+	padding-right: 10px;
+}
+
+#wplogin.wploginRTL .wploginContainer label[for="userID"],
+#wplogin.wploginRTL .wploginContainer label[for="password"],
+#wplogin.wploginRTL .wploginContainer input[type="checkbox"] {
+	margin: 12px 25px 0px 10px;
+}
+
+#wplogin.wploginRTL .wploginRegister p {
+	margin: 10px 25px 0 0;
+}
+
+#wplogin.wploginRTL .wploginContainer input[type="submit"],
+#wplogin.wploginRTL .wpOpenIdContainer form span,
+#wplogin.wploginRTL .wpOpenIdContainer form input[type="submit"] {
+	margin: 12px 25px 5px 0px;
+}
+
+#wplogin.wploginRTL .wploginButtonCancel {
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.macmui .wpsInstructionText {
+	color: #323232;
+	font-size: 12px;
+	margin-top: 15px;
+}
+
+.macmui #wplogin.wploginRTL .wploginContainer form input[type="submit"].wploginButtonLogin {
+	margin-left: 8px;
+	margin-right: 0px;
+}
+
+.macmui #wplogin.wploginRTL .wploginContainer form input[type="submit"].wploginButtonCancel {
+	margin-left: 5px;
+	margin-right: 0px;
+}
+
+#wplogin.wploginRTL .wploginSeparator {
+	text-align: center;
+}
+
+#wplogin.wploginRTL .wpOpenIdContainer form,
+#wplogin.wploginRTL .wploginGreeting {
+	margin-left: 0px;
+	margin-right: 25px;
+}
+
+#wplogin.wploginRTL .wpOpenIdContainer form span {
+	margin: 0px 0px 0px 5px;
+}
+
+#wplogin.wploginRTL form .wpOpenIdGenericContainer input[type="submit"] {
+	margin-right: 0px;
+}
+
+#wplogin.wploginRTL .wpOpenIdContainer form span.wploginMoreIcon {
+	margin: 0 -6px 0 0;
+}
+
+#wplogin.wploginRTL .wploginMore a {
+	padding: 0 10px 0 0;
+}
+
+#wplogin.wploginRTL .wploginHelp {
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+html:lang(ar) #wplogin .wploginHelp img {
+	background-position: -20px 0px;
+}
+
+#wplogin.wploginRTL #wploginHelpContainer {
+	border-radius: 0 5px 5px 5px;
+}
+
+#wplogin.wploginRTL #wploginHelpContainer:before {
+	background: none repeat scroll 0 0 transparent;
+	border-color: #fff rgba(0, 63, 105, 0.15) rgba(0, 63, 105, 0.15) #fff;
+	border-radius: 0 0 5px;
+	border-style: solid;
+	border-width: 8px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), 1px 1px 1px rgba(0, 0, 0, 0.2);
+	content: "";
+	display: block;
+	left: 0;
+	right: auto;
+	position: absolute;
+	top: 0;
+	width: 0;
+}
+
+#wplogin .wploginContainer input[type="submit"]:focus,
+#wplogin .wpOpenIdContainer form input[type="submit"]:focus {
+	background-color: #003f69;
+}
+
+.macmui #wplogin.wploginRTL .wploginContainer .wploginTextRight {
+	text-align: left;
+}
+
+/*------强制改密  2017.07.18 yj--------*/
+.cprd_bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.3);
+	z-index: 888;
+	display: none;
+}
+.changePrd{
+	width: 400px;
+	height: 140px;
+	background-color: #fff;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin: -70px 0 0 -200px;
+	z-index: 900;
+	display: none;
+}
+.changePrd .changePrdIn{
+	margin: 30px 20px;
+	text-align: center;
+}
+.changePrd .changePrdIn h2{
+	font-size: 16px;
+	color: #666;
+	height: 40px;
+	line-height: 40px;
+	font-family: "microsoft yahei";
+}
+.changePrd .changePrdIn p{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+}
+.changePrd .changePrdIn p span{
+	font-size: 12px;
+	color: #999;
+	
+}
+.changePrd .changePrdIn p a{
+	padding: 5px 10px;
+	font-size: 14px;
+	color: #fff !important;
+	background-color: #1891ab;
+	text-decoration: none;
+}
+.changePrd .changePrdIn p a:visited{
+	color: #fff !important;
+}

@@ -1,0 +1,21 @@
+{
+    "halfYearSumDraftProcess":14,
+    "firstUsedProcess":"G2.5实验申请书",
+    "secondUsedProcess":"请假审批单",
+    "handleTaskRanking":450,
+    "firstDraftProcessTime":"2015-08-25T08:14:00Z",
+    "userName":"00002532",
+    "sumThirdUsedProcess":3,
+    "startLongestTimeProcess":"2015-08-25T09:14:00Z",
+    "longestTimeProcessCost":3771120,
+    "halfYearSumTodoProcess":6,
+    "thirdUsedProcess":"实验室测试分析委托书",
+    "endLongestTimeProcess":"2015-10-08T00:46:00Z",
+    "sumTodoProcess":13,
+    "firstDraftProcessName":"IT服务单",
+    "longestTimeProcess":"IT服务单",
+    "handleTaskAverageTime":416431,
+    "sumDraftProcess":50,
+    "sumFirstUsedProcess":30,
+    "sumSecondUsedProcess":10
+}
